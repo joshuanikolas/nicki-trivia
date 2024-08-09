@@ -19,11 +19,18 @@
     <h2>Welcome to Nicki Trivia</h2>
         <p1> Here you will be tested to see how real of a Barb🦄🎀 you are. There will be 20 questions and each question is worth ✨5 points✨. If you reach below 70 points you have failed and true colors will be shown that you are unfortunately not a Barb. ☹️ Just kidding, enjoy playing Nicki Trivia! ☺️ </p1>
 
-    <h2>🎧Name The Songs🎧</h2>
-   
-    <!--question1: moment 4 life correct answer-->
-    <div class="question"
-        <p id="=question2">Play the song and guess which choice of a song name is the correct answer below:</p>
+    <h3>🎧Name The Songs🎧</h3>
+
+    <div class="scoreBoard">
+        <h4>Your Current Score:</h4>
+    </div>
+
+    <div class="quiz-container">
+
+
+
+    <div class="questions"
+         <p id="my-question">Play the song and guess which choice of a song name is the correct answer below:</p>
     <audio controls><source src="./Moment 4 Life.mp3">
     </audio>
     <div class="answers">
@@ -32,19 +39,22 @@
         <button class="answer" onclick="checkAnswer(2)">Starships</button>
         <button class="answer" onclick="checkAnswer(3)">Your Love</button>
     </div>
+    <p id="message"></p>
+    </div>
+<script src="index.js"></script>
 
-
-    <!--Question 2: Play the song and guess which choice of song name is the correct answer below.  -->
+    
     <div class="question"
-        <p id="=question2">Play the song and guess which choice of a song name is the correct answer below:</p>
-    <audio controls><source src="./Moment 4 Life.mp3">
+        <p id="my-question">Play the song and guess which choice of a song name is the correct answer below:</p>
+    <audio controls><source src="./Nicki Minaj - Red Ruby Da Sleeze (Best Clean Version).mp3">
     </audio>
     <div class="answers">
-        <button class="answer" onclick="checkAnswer(0)">Moment 4 Life</button>
-        <button class="answer" onclick="checkAnswer(1)">Dear Old Nicki</button>
-        <button class="answer" onclick="checkAnswer(2)">Starships</button>
-        <button class="answer" onclick="checkAnswer(3)">Your Love</button>
+        <button class="answer" onclick="checkAnswer(0)">Red Ruby Da Sleeze</button>
+        <button class="answer" onclick="checkAnswer(1)">Sir</button>
+        <button class="answer" onclick="checkAnswer(2)">Press Play</button>
+        <button class="answer" onclick="checkAnswer(3)">Good Form</button>
     </div>
+    <script src="index.js"></script>
 
     <div class="question"
     <p id="=question2">Play the song and guess which choice of a song name is the correct answer below:</p>
