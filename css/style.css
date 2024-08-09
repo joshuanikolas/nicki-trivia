@@ -1,0 +1,27 @@
+body{
+    background-image: url(https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExbXU2OThnaDkxcWI4Zmp3aGdoYXdodTJhb3picTB4NHFwcDNxdjcweiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/aJcT9U5loQ0me296ss/giphy.webp);
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat;
+}
+
+h1 {
+    text-align: center;
+    color: whitesmoke;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 85px;
+}
+
+h2{
+    text-align: center;
+    color: white;
+    font-family: "Press Start 2P", sans-serif;
+    font-size: 25px;
+}
+
+p1{
+    text-align: center;
+    color: white;
+    font-family: "Bebas Neue",sans-serif;
+    font-size: 20px;
+}
