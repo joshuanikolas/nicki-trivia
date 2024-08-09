@@ -5,6 +5,11 @@ body{
     background-repeat: repeat;
 }
 
+.bar {
+    background-color: rgb(236, 143, 166);
+    height: 95px;
+}
+
 h1 {
     text-align: center;
     color: whitesmoke;
@@ -25,3 +30,4 @@ p1{
     font-family: "Bebas Neue",sans-serif;
     font-size: 20px;
 }
+
