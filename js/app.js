@@ -1,5 +1,4 @@
 const questions = [
-    // ... Define question objects here ...
     {
       category: "songs",
       question: "Play the song and guess which choice of a song name is the correct answer below:",
@@ -71,10 +70,10 @@ const questions = [
         correctAnswer: 3,
       },
     {
-      category: "facts",
-      question: "What is the name of Nicki Minaj's first album?",
-      answers: ["Queen", "The PinkPrint", "Pink Friday", "Pink Friday: Roman Reloaded"],
-      correctAnswer: 2,
+        category: "facts",
+        question: "What is the name of Nicki Minaj's first album?",
+        answers: ["Queen", "The PinkPrint", "Pink Friday", "Pink Friday: Roman Reloaded"],
+        correctAnswer: 2,
     },
     {
         category: "facts",
@@ -137,20 +136,20 @@ const questions = [
   let score = 100;
   
   function init() {
-    const answerList = document.getElementById("answers");
-    const restartButton = document.getElementById("restart");
-    const currentScoreDisplay = document.getElementById("currentScore");
+        const answerList = document.getElementById("answers");
+        const restartButton = document.getElementById("restart");
+        const currentScoreDisplay = document.getElementById("currentScore");
   
     answerList.addEventListener("click", handleAnswerClick);
     restartButton.addEventListener("click", handleRestart);
   
-    render(); // Call render function to start the quiz
+    render(); 
   }
   
   function handleAnswerClick(event) {
-    if (!event.target.classList.contains("answer")) return; // Check if clicked element is an answer
+    if (!event.target.classList.contains("answer")) return; 
   
-    const userAnswer = parseInt(event.target.dataset.index); // Get answer index from data-index attribute
+    const userAnswer = parseInt(event.target.dataset.index); 
     const correctAnswer = questions[currentQuestion].correctAnswer;
   
     if (userAnswer === correctAnswer) {
@@ -175,35 +174,32 @@ const questions = [
     const audioElement = document.getElementById("question-audio");
     const answerList = document.getElementById("answers");
     const currentScoreDisplay = document.getElementById("currentScore");
-  
-    // Clear previous content
-    questionElement.textContent = "";
-    answerList.innerHTML = ""; // Clear list items
-  
-    // Check if all questions are answered
-    if (currentQuestion === questions.length) {
-      questionElement.textContent = `Quiz Completed! Your final score is ${score} points.`;
-      return; // Exit function if quiz is finished
-    }
-  
     const currentQuestionObj = questions[currentQuestion];
+
+    questionElement.textContent = "";
+    answerList.innerHTML = ""; 
   
-    // Update question, answers, and score
+        if (currentQuestion >= questions.length) {
+            if (score >= 70) {
+                questionElement.textContent = "You win!!! The true Barb that you are🩷";
+            } else {
+                questionElement.textContent = "You lose! 😕";
+                }
+            return;
+             }
+  
     questionElement.textContent = currentQuestionObj.question;
     currentScoreDisplay.textContent = `Current Score: ${score}`;
     audioElement.src = questions[currentQuestion].audioSrc;
 
-  
     currentQuestionObj.answers.forEach((answer, index) => {
       const answerItem = document.createElement("li");
       answerItem.classList.add("answer");
       answerItem.textContent = answer;
-      answerItem.dataset.index = index; // Store answer index in data attribute
+      answerItem.dataset.index = index; 
       answerList.appendChild(answerItem);
     });
   }
 
-  
-  
-  init(); // Call init function to start the quiz
+  init();
   
