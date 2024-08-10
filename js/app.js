@@ -77,9 +77,9 @@ const questions = [
     },
     {
         category: "facts",
-        question: "What is the name of Nicki Minaj's first album?",
-        answers: ["Queen", "The PinkPrint", "Pink Friday", "Pink Friday: Roman Reloaded"],
-        correctAnswer: 2,
+        question: "Who signed Nicki Minaj for the kick off of her rap career?",
+        answers: ["Lil Wayne", "Gucci Mane", "50 Cent", "Jay-Z"],
+        correctAnswer: 0,
       },
       {
         category: "facts",
