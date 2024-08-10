@@ -63,3 +63,15 @@
 * Create a variable for the current catagory the player is in
 
 * Create a function for a 15 second timer for each question
+
+### Technologies Used:
+
+* HTML
+
+* Javascript
+
+* style.css
+
+### Stetch Goals:
+
+* I would love to be able to be an expert at javascript and feel confident in creating the codes off bat. I feel like this project was very tideous and did lots of researching to get where I wanted this project to be as much as possible. HTML and CSS is what I really enjoyed the most.
