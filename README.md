@@ -2,6 +2,16 @@
 
 ![Nicki pic](https://i.etsystatic.com/37227066/r/il/bb615c/5410001018/il_fullxfull.5410001018_5ucw.jpg)
 
+### Description 
+
+* I decided to do pick this project because Nicki Minaj has always been such an idol to me since 2009 and been her biggest fan. I thought this idea to make a quiz about her really fun for myself to do as my first project and also others who may be fans of her as well. The game's description is a 20 question multiple choice trivia game with 2 catagories. The first catagory will consist of 10 questions that has an audio player of her songs and the player has to pick an answer listed of which one is the correct name of the same playing on the question. The second catagory consists of fun facts about Nicki Minaj which is also multiple choice as well. Each question is worth 5 points, in order for the player to win/pass the trivia, they will have to be at 70 points or higher. If they would like to play again, they will press the restart button. 
+
+### Getting Started
+
+* Deployed game: https://joshuanikolas.github.io/nicki-trivia/
+
+* Important Instruction: When site is loaded, scroll down and press 'Restart' to play the game.
+
 ### Catagories
 
 * Multiple choice questions defining the correct song playing while on the question (10 questions)
@@ -72,9 +82,9 @@
 
 * style.css
 
-### Stetch Goals:
+### Stretch Goals:
 
-* I would love to be able to be an expert at javascript and feel confident in creating the codes off bat. I feel like this project was very tideous and did lots of researching to get where I wanted this project to be as much as possible. HTML and CSS is what I really enjoyed the most.
+* My stretch goals would be to learn how to better catagorize different groups of answers in a button which was something that I had a hard toime doing. I do love and enjoy using HTML and CSS because I am a visual person and love art. As far as Javascript I would like to be more advanced on that part, I do understand it but when it comes to certain functions I tend to overthink and then stay stuck, I want to master it which I know I will in the near future!
 
 ### Deployed Link:
 
